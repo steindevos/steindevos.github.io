@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700|Sintony:100,200,300,400,500,600,700');
+/*----------------------------------------------------------------------------------------------------------bg-colors*/
+
+.bg-color-body {
+    background-color: #fafafa;
+}
+
+.bg-color-nav {
+    background-color: rgba(250, 250, 250, 0.9);
+}
+
+/*----------------------------------------------------------------------------------------------------------text*/
+.general-heading {
+    font-family: 'Sintony', sans-serif;
+    font-weight: 700; 
+    color: #797d75;
+    font-size: 62px;
+    line-height: 80px; 
+}
+
+.general-text {
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 300;
+    color: #797d75;
+    line-height: 30px; 
+}
+
+
+
+
+/*----------------------------------------------------------------------------------------------------------body*/
+
+body {
+    /*font-family: */
+    /*color: */
+}
+
+/*----------------------------------------------------------------------------------------------------------nav-bar*/
+
+nav {}
+
+.navbar-header {
+    height: 56px;
+}
+
+.navbar-small-logo {
+    height: 40px; 
+    transition: all 2s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+.phone {
+    font-size: 3rem;
+    margin-top: 20px;
+    padding: 0px; 
+    color: #797d75;
+    border-radius: 50%;
+}
+
+.glyphicon-menu-down {
+    font-size: 3rem;
+}
+
+.navbar-right>li {
+}
+
+
+.navbar-right>li>a {
+    width: 150px;
+    height: 70px; 
+}
+.navbar-right>li>a>p {
+    margin-top: 10px;
+    font-family: 'Sintony', sans-serif;
+    font-weight: 600; 
+    letter-spacing: 5px
+}
+svg {
+    position: absolute; 
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/*----------------------------------------------------------------------------------------------------------header*/
+header {
+    margin-top: 70px;
+}
+
+/*----------------------------------------------------------------------------------------------------------product-section*/
+
+/*----------------------------------------------------------------------------------------------------------about-ward-section*/
+
+/*----------------------------------------------------------------------------------------------------------contact-section*/
+
+/*----------------------------------------------------------------------------------------------------------footer*/
+
+/*----------------------------------------------------------------------------------------------------------media-queries*/
