@@ -9,30 +9,86 @@
     background-color: rgba(250, 250, 250, 0.9);
 }
 
+.bg-color-product-section {
+    background-color: #fafafa;
+}
+
+.bg-color-product-card {
+    background-color: #fafafa;
+}
+
+
+
 /*----------------------------------------------------------------------------------------------------------text*/
+
 .general-heading {
     font-family: 'Sintony', sans-serif;
-    font-weight: 700; 
+    font-weight: 700;
     color: #797d75;
-    font-size: 62px;
-    line-height: 80px; 
+    font-size: 3rem;
+    line-height: 80px;
 }
 
 .general-text {
-    font-family: 'Poppins', sans-serif; 
+    font-family: 'Poppins', sans-serif;
     font-weight: 300;
     color: #797d75;
-    line-height: 30px; 
+    line-height: 30px;
 }
 
+.header-title {
+    font-family: 'Sintony', sans-serif;
+    font-weight: 400;
+    color: #797d75;
+    font-size: 3rem;
+    line-height: 40px;
+    letter-spacing: 2px;
+}
+
+.header-text {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: #797d75;
+    line-height: 30px;
+}
+
+.section-main-titles {
+    font-family: 'Sintony', sans-serif;
+    font-weight: 100;
+    letter-spacing: 20px;
+    line-height: 30px; 
+    color: #fafafa;
+    font-size: 2rem;
+    text-transform: uppercase;
+    padding: 0px;
+    position: relative;
+    top: 500px;
+    word-wrap: break-word;
+}
+
+.product-heading {
+    font-family: 'Sintony', sans-serif;
+    font-weight: 700;
+    color: #797d75;
+    font-size: 2rem;
+    line-height: 80px;
+    word-wrap: break-word;
+}
+
+.product-text {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: #797d75;
+    line-height: 30px;
+}
 
 
 
 /*----------------------------------------------------------------------------------------------------------body*/
 
 body {
-    /*font-family: */
-    /*color: */
+    font-family: 'Poppins', sans-serif;
+    color: #797d75;
 }
 
 /*----------------------------------------------------------------------------------------------------------nav-bar*/
@@ -40,11 +96,11 @@ body {
 nav {}
 
 .navbar-header {
-    height: 56px;
+    height: 70px;
 }
 
 .navbar-small-logo {
-    height: 40px; 
+    height: 40px;
     transition: all 2s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
@@ -53,7 +109,7 @@ nav {}
 .phone {
     font-size: 3rem;
     margin-top: 20px;
-    padding: 0px; 
+    padding: 0px;
     color: #797d75;
     border-radius: 50%;
 }
@@ -62,35 +118,81 @@ nav {}
     font-size: 3rem;
 }
 
-.navbar-right>li {
-}
+.navbar-right>li {}
 
 
 .navbar-right>li>a {
-    width: 150px;
-    height: 70px; 
+    height: 70px;
 }
+
 .navbar-right>li>a>p {
     margin-top: 10px;
     font-family: 'Sintony', sans-serif;
-    font-weight: 600; 
-    letter-spacing: 5px
+    font-weight: 600;
+    letter-spacing: 5px;
+    color: #797d75;
+    width: 150px
 }
-svg {
-    position: absolute; 
-    margin: 0px;
-    padding: 0px;
-}
+
 
 
 /*----------------------------------------------------------------------------------------------------------header*/
+
 header {
-    margin-top: 70px;
+    height: 100vh;
 }
+
+.header-logo {
+    width: 100%;
+    height: auto;
+    margin: 150px 0px 50px 0px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
 
 /*----------------------------------------------------------------------------------------------------------product-section*/
 
+.parallax-diensten {
+    background-image: url("../assets/images/promotie.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.product-card {
+    padding: 0px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.product-section-icon {
+    font-size: 10rem;
+}
+
+.partners {
+    min-height: 200px; 
+}
+
+.partners>img {
+    max-width: 100%;
+    height: auto;
+    filter: grayscale(100%);
+}
+
 /*----------------------------------------------------------------------------------------------------------about-ward-section*/
+
+.parallax-over-mij {
+    background-image: url("../assets/images/maas-1.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
 
 /*----------------------------------------------------------------------------------------------------------contact-section*/
 
