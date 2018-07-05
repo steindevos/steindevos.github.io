@@ -2,7 +2,7 @@
 /*----------------------------------------------------------------------------------------------------------bg-colors*/
 
 .bg-color-body {
-    background-color: #fafafa;
+    background-color: white;
 }
 
 .bg-color-nav {
@@ -10,16 +10,32 @@
 }
 
 .bg-color-product-section {
-    background-color: #fafafa;
+    background-color: white;
+}
+
+.bg-color-product-instructie {
+    background-color: #c7d7e6;
+}
+
+.bg-color-product-aftermovies {
+    background-color: #f1e0e9;
 }
 
 .bg-color-product-card {
-    background-color: #fafafa;
+    background-color: white;
+}
+
+.bg-color-footer {
+    background-color: #797d75;
 }
 
 
 
-/*----------------------------------------------------------------------------------------------------------text*/
+/*----------------------------------------------------------------------------------------------------------text/special positioning*/
+
+li>a>p {
+    text-align: center;
+}
 
 .general-heading {
     font-family: 'Sintony', sans-serif;
@@ -27,6 +43,26 @@
     color: #797d75;
     font-size: 3rem;
     line-height: 80px;
+    word-wrap: break-word;
+}
+
+.partners-heading {
+    font-family: 'Sintony', sans-serif;
+    font-weight: 700;
+    color: #797d75;
+    font-size: 3rem;
+    line-height: 80px;
+    word-wrap: break-word;
+}
+
+.partners-heading:after {
+    content: "";
+    position: absolute;
+    width: 12%;
+    left: 44.5%;
+    height: 65px;
+    border-bottom: 1px solid #797d75;
+    margin-bottom: 70px;
 }
 
 .general-text {
@@ -43,6 +79,7 @@
     font-size: 3rem;
     line-height: 40px;
     letter-spacing: 2px;
+    word-wrap: break-word;
 }
 
 .header-text {
@@ -54,15 +91,15 @@
 
 .section-main-titles {
     font-family: 'Sintony', sans-serif;
-    font-weight: 100;
+    font-weight: 900;
     letter-spacing: 20px;
-    line-height: 30px; 
+    line-height: 30px;
     color: #fafafa;
-    font-size: 2rem;
+    font-size: 2.2rem;
     text-transform: uppercase;
     padding: 0px;
+    margin: 0px;
     position: relative;
-    top: 500px;
     word-wrap: break-word;
 }
 
@@ -70,8 +107,7 @@
     font-family: 'Sintony', sans-serif;
     font-weight: 700;
     color: #797d75;
-    font-size: 2rem;
-    line-height: 80px;
+    font-size: 4rem;
     word-wrap: break-word;
 }
 
@@ -82,13 +118,93 @@
     line-height: 30px;
 }
 
+.about-me-text {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: #797d75;
+    line-height: 30px;
+    margin-top: 50px;
+}
 
+.porfolio-card-header {
+    font-family: 'Sintony', sans-serif;
+    font-weight: 700;
+    color: #797d75;
+    font-size: 2rem;
+    word-wrap: break-word;
+}
+
+.portfolio-card-text {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #797d75;
+}
+
+.social-media-links {
+    font-family: 'Sintony', sans-serif;
+    font-weight: 500;
+    color: #fafafa;
+    font-size: 1.5rem;
+    word-wrap: break-word;
+    text-transform: uppercase;
+    text-align: left;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#icon-youtube {
+    color: #fafafa;
+    padding: 0px 15px 0px 15px;
+    font-size: 5rem;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#icon-linkedin {
+    color: #fafafa;
+    padding: 0px 15px 0px 15px;
+    font-size: 5rem;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#icon-facebook {
+    color: #fafafa;
+    padding: 0px 15px 0px 15px;
+    font-size: 5rem;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#icon-instagram {
+    color: #fafafa;
+    padding: 0px 15px 0px 15px;
+    font-size: 5rem;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.disclaimer {
+    color: #fafafa;
+}
+
+.parallax-section-heading {
+    position: relative;
+    top: 82vh;
+}
+
+.vertical-align {
+    display: inline-block;
+    vertical-align: middle;
+    width: 400px;
+}
 
 /*----------------------------------------------------------------------------------------------------------body*/
 
 body {
     font-family: 'Poppins', sans-serif;
     color: #797d75;
+    position: relative;
 }
 
 /*----------------------------------------------------------------------------------------------------------nav-bar*/
@@ -108,10 +224,11 @@ nav {}
 
 .phone {
     font-size: 3rem;
-    margin-top: 20px;
-    padding: 0px;
+    margin-top: 10px;
     color: #797d75;
     border-radius: 50%;
+    border: 0.8px solid #797d75;
+    padding: 10px 10px 10px 10px;
 }
 
 .glyphicon-menu-down {
@@ -155,47 +272,343 @@ header {
 /*----------------------------------------------------------------------------------------------------------product-section*/
 
 .parallax-diensten {
-    background-image: url("../assets/images/promotie.jpg");
+    background-image: url("../assets/images/asopos-klein.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
-}
-
-.product-card {
     padding: 0px;
-    margin-top: 50px;
-    margin-bottom: 50px;
 }
 
-.product-section-icon {
-    font-size: 10rem;
+.product-card {}
+
+.product-heading {
+    margin-top: 0px;
+}
+
+.product-icon {
+    padding-right: 15px;
+}
+
+#fa-chart {
+    color: #b4d593;
+}
+
+#fa-university {
+    color: #92B1CE;
+}
+
+#fa-aftermovies {
+    color: #c1749c;
+}
+
+.playbutton {
+    font-size: 5rem;
+    margin-top: 130px;
+    color: rgba(250, 250, 250, 0.7);
+}
+
+.playbutton:hover {
+    color: rgba(250, 250, 250, 0.9);
+}
+
+.bg-img {
+    background-image: url("../assets/images/promo-still.JPG");
+    min-height: 300px;
+    max-width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-img-instructie {
+    background-image: url("../assets/images/instructie-still.JPG");
+    min-height: 300px;
+    max-width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-img-aftermovies {
+    background-image: url("../assets/images/aftermovies-still.JPG");
+    min-height: 300px;
+    max-width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .partners {
-    min-height: 200px; 
+    min-height: 200px;
 }
 
 .partners>img {
-    max-width: 100%;
+    max-width: 80%;
     height: auto;
     filter: grayscale(100%);
+}
+
+.partners>img:hover {
+    filter: grayscale(0%);
 }
 
 /*----------------------------------------------------------------------------------------------------------about-ward-section*/
 
 .parallax-over-mij {
-    background-image: url("../assets/images/maas-1.jpg");
+    background-image: url("../assets/images/maas-klein.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
+    padding: 0px;
 }
+
+
+
+.gallery-title {
+    font-family: 'Sintony', sans-serif;
+    font-weight: 700;
+    color: #797d75;
+    font-size: 4rem;
+    text-align: center;
+    font-weight: 300;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    word-wrap: break-word;
+}
+
+.gallery-title:after {
+    content: "";
+    position: absolute;
+    width: 7.5%;
+    left: 46.5%;
+    height: 45px;
+    border-bottom: 1px solid #5e5e5e;
+}
+
+.filter-button {
+    font-size: 18px;
+    border: 1px solid #92B1CE;
+    border-radius: 5px;
+    text-align: center;
+    color: #92B1CE;
+    margin-bottom: 30px;
+
+}
+
+.filter-button:hover {
+    font-size: 18px;
+    border: 1px solid #b4d593;
+    border-radius: 5px;
+    text-align: center;
+    color: #fafafa;
+    background-color: #b4d593;
+
+}
+
+.btn-default:active .filter-button:active {
+    background-color: #42B32F;
+    color: white;
+}
+
+.porfolio-images:hover {
+    opacity: 1;
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+}
+
+.port-image {
+    width: 100%;
+}
+
+.gallery_product {
+    margin-bottom: 30px;
+}
+
+.portfolio-image-wrapper {
+    position: relative;
+}
+
+.text-block {
+    width: 100%;
+    position: absolute;
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 30%;
+    bottom: 0px;
+    opacity: 0.8;
+}
+
 
 /*----------------------------------------------------------------------------------------------------------contact-section*/
 
+.parallax-contact {
+    background-image: url("../assets/images/contact-klein-mobile.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    padding: 0px;
+}
+
+.contact-section {
+    margin-bottom: 50px;
+}
+
+.center-form {
+    padding-top: 20px;
+    max-width: 80%;
+    margin: 0 auto;
+
+}
+
 /*----------------------------------------------------------------------------------------------------------footer*/
 
+footer {
+    min-height: 150px;
+}
+
+footer>div>ul {
+    margin-top: 40px;
+}
+
+.disclaimer-row {
+    margin: 20px;
+}
+
+/*----------------------------------------------------------------------------------------------------------animations*/
+
+.icon-scroll-down {
+    display: inline-block;
+    position: relative;
+    top: 88vh;
+    left: 10%;
+}
+
+.icon {
+    transform: scale(1.5);
+    color: #fafafa;
+    display: block;
+}
+
+@keyframes icon1 {
+    0% {
+        opacity: 0.2;
+    }
+    30% {
+        opacity: 0.9;
+    }
+    100% {
+        opacity: 0.9;
+    }
+}
+
+@keyframes icon2 {
+    0% {
+        opacity: 0.2;
+    }
+    60% {
+        opacity: 0.9;
+    }
+    100% {
+        opacity: 0.9;
+    }
+}
+
+@keyframes icon3 {
+    0% {
+        opacity: 0.2;
+    }
+    90% {
+        opacity: 0.9;
+    }
+    100% {
+        opacity: 0.9;
+    }
+}
+
+
+#icon-1 {
+    animation: icon1 2s linear infinite;
+}
+
+#icon-2 {
+    animation: icon2 2s linear infinite;
+}
+
+#icon-3 {
+    animation: icon3 2s linear infinite;
+}
+
 /*----------------------------------------------------------------------------------------------------------media-queries*/
+
+@media (min-width: 768px) {
+    .product-section-rows {
+        margin: 100px 0px 100px 0px;
+    }
+
+    .gallery-title {
+        margin-top: 100px;
+    }
+}
+
+@media (min-width: 991px) {
+
+    footer>div>ul>li {
+        margin: 0px 40px 0px 40px;
+    }
+
+    #icon-youtube {
+        padding: 0px 15px 0px 15px;
+        font-size: 3rem;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    #icon-linkedin {
+        padding: 0px 15px 0px 15px;
+        font-size: 3rem;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    #icon-facebook {
+        padding: 0px 15px 0px 15px;
+        font-size: 3rem;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    #icon-instagram {
+        padding: 0px 15px 0px 15px;
+        font-size: 3rem;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    .porfolio-images {
+        opacity: 0.8;
+        -webkit-filter: blur(1px);
+        filter: blur(1px);
+    }
+
+    .parallax-contact {
+        background-image: url("../assets/images/contact-klein.jpg");
+    }
+}
+
+
+@media (max-width: 767px) {
+    .partners {
+        min-height: 100px;
+    }
+
+    .product-heading {
+        margin-top: 30px;
+    }
+}

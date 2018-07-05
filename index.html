@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
+    <link href="assets/lity/lity.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <title>CineWard</title>
 </head>
@@ -20,11 +21,11 @@
                 <div class="row">
                     <div class="col-xs-4">
                         <a class="navbar-brand" href="index.html">
-                    <img class="navbar-small-logo" src="assets/images/small-logo.png" alt="logo van CineWard">
+                    <img class="navbar-small-logo hidden-xs" src="assets/images/large-logo.png" alt="logo van CineWard">
                     </a>
                     </div>
 
-                    <a href="tel:+4917640206387">
+                    <a href="tel:+0031651406544">
                         <div class="col-xs-4 hidden-sm hidden-md hidden-lg text-center">
                             <i class="fas fa-phone phone" aria-hidden="true"></i>
                         </div>
@@ -41,17 +42,17 @@
             <div id="navbarCollapse" class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a class='hvr-sink' href="">
+                        <a class='hvr-sink' href="#diensten">
                             <p>Diensten</p>
                         </a>
                     </li>
                     <li>
-                        <a class='hvr-sink' href="">
+                        <a class='hvr-sink' href="#over-mij">
                             <p>Over mij</p>
                         </a>
                     </li>
                     <li>
-                        <a class='hvr-sink' href="">
+                        <a class='hvr-sink' href="#contact">
                             <p>Contact</p>
                         </a>
                     </li>
@@ -59,8 +60,6 @@
             </div>
         </div>
     </nav>
-
-
 
     <header class="container-fluid">
         <div class="row">
@@ -76,109 +75,314 @@
         </div>
     </header>
 
-
+    <div class="parallax-diensten" id="diensten">
+        <div class="icon-scroll-down hidden-xs">
+            <i id="icon-1" class=" icon fas fa-caret-down"></i>
+            <i id="icon-2" class=" icon fas fa-caret-down"></i>
+            <i id="icon-3" class=" icon fas fa-caret-down"></i>
+        </div>
+        <div class="text-center container parallax-section-heading">
+            <div class="row text-center">
+                <h2 class="col-sm-12 section-main-titles">Diensten</h2>
+            </div>
+        </div>
+    </div>
 
     <section class="product-section bg-color-product-section container-fluid">
-        <div class="text-center parallax-diensten">
-            <h1 class="section-main-titles">Diensten</h1>
-        </div>
+        <div class="row product-section-rows">
+            <div class="col-xs-12 col-sm-6">
+                <div class="product-card bg-color-product-card text-center">
+                    <h1 class="product-heading"><span class="product-icon"><i id="fa-chart" class="fas fa-chart-line"></i></span>Promotie</h1>
+                    <p class="product-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis ab ea quibusdam omnis laudantium accusantium maxime porro magni nam culpa dolores aperiam tenetur ducimus aliquam, earum esse dicta voluptatum iste quos magnam veniam
+                        voluptates! Iusto quisquam quo incidunt nihil, totam sequi explicabo repellendus, quasi sunt dolores porro voluptate. Ex, omnis.</p>
+                </div>
+            </div>
 
-        <div class="row">
-            <div class="col-xs-12 col-sm-6 col-md-4 text-center">
-                <div class="row">
-                    <div class="product-card bg-color-product-card col-xs-10 col-xs-offset-1 text-center">
-                        <i class="fas fa-chart-line product-section-icon"></i>
-                        <h1 class="product-heading">Promotie</h1>
-                        <p class="product-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis ab ea quibusdam omnis laudantium accusantium maxime porro magni nam culpa dolores aperiam tenetur ducimus aliquam, earum esse dicta voluptatum iste quos magnam veniam
-                            voluptates! Iusto quisquam quo incidunt nihil, totam sequi explicabo repellendus, quasi sunt dolores porro voluptate. Ex, omnis.</p>
+            <div class="col-xs-12 col-sm-6">
+                <a href="//www.youtube.com/watch?v=iRpGqAQn6xY&t=1s" data-lity>
+                    <div class="bg-img text-center">
+                        <i class="playbutton fas fa-play"></i>
                     </div>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4 text-center">
-                <div class="row">
-                    <div class="product-card bg-color-product-card col-xs-10 col-xs-offset-1 text-center">
-                        <i class="fas fa-university product-section-icon"></i>
-                        <h1 class="product-heading">Instructie</h1>
-                        <p class="product-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis ab ea quibusdam omnis laudantium accusantium maxime porro magni nam culpa dolores aperiam tenetur ducimus aliquam, earum esse dicta voluptatum iste quos magnam veniam
-                            voluptates! Iusto quisquam quo incidunt nihil, totam sequi explicabo repellendus, quasi sunt dolores porro voluptate. Ex, omnis.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4 text-center">
-                <div class="row">
-                    <div class="product-card bg-color-product-card col-xs-10 col-xs-offset-1 text-center">
-                        <i class="fas fa-heart product-section-icon"></i>
-                        <h1 class="product-heading">Aftermovie</h1>
-                        <p class="product-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis ab ea quibusdam omnis laudantium accusantium maxime porro magni nam culpa dolores aperiam tenetur ducimus aliquam, earum esse dicta voluptatum iste quos magnam veniam
-                            voluptates! Iusto quisquam quo incidunt nihil, totam sequi explicabo repellendus, quasi sunt dolores porro voluptate. Ex, omnis.</p>
-                    </div>
-                </div>
+                </a>
             </div>
         </div>
 
+        <div class="row product-section-rows">
+            <div class="col-xs-12 col-sm-6 col-sm-push-6">
+                <div class="product-card bg-color-product-card text-center">
+                    <h1 class="product-heading"><span class="product-icon"><i id="fa-university" class="fas fa-university"></i></span>Instructie</h1>
+                    <p class="product-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis ab ea quibusdam omnis laudantium accusantium maxime porro magni nam culpa dolores aperiam tenetur ducimus aliquam, earum esse dicta voluptatum iste quos magnam veniam
+                        voluptates! Iusto quisquam quo incidunt nihil, totam sequi explicabo repellendus, quasi sunt dolores porro voluptate. Ex, omnis.</p>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-sm-pull-6">
+                <a href="//www.youtube.com/watch?v=aIUv6LoMIdY" data-lity>
+                    <div class="bg-img-instructie text-center">
+                        <i class="playbutton fas fa-play"></i>
+                    </div>
+                </a>
+            </div>
+        </div>
 
+        <div class="row product-section-rows">
+            <div class="col-xs-12 col-sm-6">
+                <div class="product-card bg-color-product-card text-center">
+                    <h1 class="product-heading"><span class="product-icon"><i id="fa-aftermovies" class="fas fa-heart"></i></span>Aftermovies</h1>
+                    <p class="product-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis ab ea quibusdam omnis laudantium accusantium maxime porro magni nam culpa dolores aperiam tenetur ducimus aliquam, earum esse dicta voluptatum iste quos magnam veniam
+                        voluptates! Iusto quisquam quo incidunt nihil, totam sequi explicabo repellendus, quasi sunt dolores porro voluptate. Ex, omnis.</p>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-6">
+                <a href="//www.youtube.com/watch?v=y3oroG_2Pkw" data-lity>
+                    <div class="bg-img-aftermovies text-center">
+                        <i class="playbutton fas fa-play"></i>
+                    </div>
+                </a>
+            </div>
+        </div>
 
         <div class="product-section-partners">
             <div class="row text-center">
-                <h2 class="general-heading">Zij gingen u voor</h2>
+                <h5 class="partners-heading">Zij gingen u voor</h5>
             </div>
-            <div class="row">
-                <div class="partners col-xs-3 col-sm-2 col-lg-1"><img src="assets/images/partners/tu-delft.jpg" alt=""></div>
-                <div class="partners col-xs-3 col-sm-2 col-lg-1"><img src="assets/images/partners/ah.png" alt=""></div>
-                <div class="partners col-xs-3 col-sm-2 col-lg-1"><img src="assets/images/partners/ideefix.jpg" alt=""></div>
-                <div class="partners col-xs-3 col-sm-2 col-lg-1"><img src="assets/images/partners/gemeente-alphen.png" alt=""></div>
-                <div class="partners col-xs-3 col-sm-2 col-lg-1"><img src="assets/images/partners/cinemannen.jpeg" alt=""></div>
-                <div class="partners col-xs-3 col-sm-2 col-lg-1"><img src="assets/images/partners/deal.jpg" alt=""></div>
-                <div class="partners col-xs-3 col-sm-2 col-lg-1"><img src="assets/images/partners/erasmus.png" alt=""></div>
-                <div class="partners col-xs-3 col-sm-2 col-lg-1"><img src="assets/images/partners/burnout.png" alt=""></div>
-                <div class="partners col-xs-3 col-sm-2 col-lg-1"><img src="assets/images/partners/asopos.png" alt=""></div>
-                <div class="partners col-xs-3 col-sm-2 col-lg-1"><img src="assets/images/partners/shc.png" alt=""></div>
-                <div class="partners col-xs-3 col-sm-2 col-lg-1"><img src="assets/images/partners/lumc.png" alt=""></div>
-                <div class="partners col-xs-3 col-sm-2 col-lg-1"><img src="assets/images/partners/apogroep.png" alt=""></div>
+            <div class="row text-center">
+                <div class="partners col-xs-3 col-sm-2"><img src="assets/images/partners/tu-delft.jpg" alt=""></div>
+                <div class="partners col-xs-3 col-sm-2"><img src="assets/images/partners/ah.png" alt=""></div>
+                <div class="partners col-xs-3 col-sm-2"><img src="assets/images/partners/ideefix.jpg" alt=""></div>
+                <div class="partners col-xs-3 col-sm-2"><img src="assets/images/partners/gemeente-alphen.png" alt=""></div>
+                <div class="partners col-xs-3 col-sm-2"><img src="assets/images/partners/cinemannen.jpeg" alt=""></div>
+                <div class="partners col-xs-3 col-sm-2"><img src="assets/images/partners/deal.jpg" alt=""></div>
+                <div class="partners col-xs-3 col-sm-2"><img src="assets/images/partners/erasmus.png" alt=""></div>
+                <div class="partners col-xs-3 col-sm-2"><img src="assets/images/partners/burnout.png" alt=""></div>
+                <div class="partners col-xs-3 col-sm-2"><img src="assets/images/partners/asopos.png" alt=""></div>
+                <div class="partners col-xs-3 col-sm-2"><img src="assets/images/partners/shc.png" alt=""></div>
+                <div class="partners col-xs-3 col-sm-2"><img src="assets/images/partners/lumc.png" alt=""></div>
+                <div class="partners col-xs-3 col-sm-2"><img src="assets/images/partners/apogroep.png" alt=""></div>
             </div>
         </div>
 
     </section>
 
-
-
+    <div class="parallax-over-mij" id="over-mij">
+        <div class="icon-scroll-down hidden-xs">
+            <i id="icon-1" class=" icon fas fa-caret-down"></i>
+            <i id="icon-2" class=" icon fas fa-caret-down"></i>
+            <i id="icon-3" class=" icon fas fa-caret-down"></i>
+        </div>
+        <div class="text-center container parallax-section-heading">
+            <div class="row text-center">
+                <h2 class="col-sm-12 section-main-titles">De man achter de camera</h2>
+            </div>
+        </div>
+    </div>
 
     <section class="about-ward-section container-fluid">
 
-        <div class="text-center parallax-over-mij">
-            <h1 class="section-main-titles">De man achter de camera</h1>
-        </div>
 
         <div class="row">
-            <div class="col-xs-12 text-center">
-                <p class="general-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, vitae, maxime! Vel accusantium eos, eum soluta molestiae. Ullam, nesciunt explicabo soluta cum, ea quos, alias eius id vero expedita accusantium fugiat. Voluptatum aperiam
-                    repellat accusamus corporis amet tenetur debitis, aliquid aliquam voluptatibus eaque, totam doloremque iusto vitae, quod quaerat saepe quidem. Quod debitis sequi hic eligendi dolore veritatis aperiam cupiditate doloremque possimus
-                    optio dolor nihil officia, natus fugiat aspernatur quaerat eveniet aliquid dignissimos sint vitae est eius. Dolorum repudiandae ipsum reprehenderit beatae cum voluptates culpa enim porro minima ratione suscipit distinctio explicabo
-                    dignissimos tempora rem consequuntur odit nesciunt dolores quod, deserunt non officiis illum omnis. Sunt at blanditiis assumenda dicta, nobis eligendi praesentium nisi recusandae reiciendis sapiente sequi omnis quam animi, delectus
-                    porro distinctio vel quo suscipit quis ab eos et quas. Possimus animi, repellat dolorem beatae. Veritatis, at, officiis. Cum, ullam. Animi quisquam accusamus labore laboriosam, vero illum ipsam.</p>
+            <div class="col-xs-12 col-sm-8 col-sm-offset-2 text-center">
+                <p class="about-me-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, vitae, maxime! Vel accusantium eos, eum soluta molestiae. Ullam, nesciunt explicabo soluta cum, ea quos, alias eius id vero expedita accusantium fugiat. Voluptatum aperiam
+                    repellat accusamus corporis amet tenetur debitis, aliquid aliquam voluptatibus eaque, totam doloremque iusto vitae, quod quaerat saepe quidem. Quod </p>
             </div>
         </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="gallery col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <h2 class="gallery-title">Portfolio</h2>
+                </div>
+
+                <div align="center">
+                    <button class="btn btn-default filter-button" data-filter="all">Allen</button>
+                    <button class="btn btn-default filter-button" data-filter="promotie">Promotie</button>
+                    <button class="btn btn-default filter-button" data-filter="instructie">Instructie</button>
+                    <button class="btn btn-default filter-button" data-filter="aftermovies">Aftermovies</button>
+                    <button class="btn btn-default filter-button" data-filter="bruiloft">Bruiloften</button>
+                </div>
+                <br/>
+
+
+
+                <div class="gallery_product col-lg-4 col-md-4 col-sm-6 col-xs-12 filter promotie">
+                    <a href="//www.youtube.com/watch?v=6dVFy4d61gU" data-lity>
+                        <div class="portfolio-image-wrapper">
+                            <img src="assets/images/portfolio-tomorrowland.png" class="img-responsive porfolio-images">
+                            <div class="text-block">
+                                <h4 class="porfolio-card-header">Tomorrowland</h4>
+                                <p class="portfolio-card-text">What a beautiful sunrise</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="gallery_product col-lg-4 col-md-4 col-sm-6 col-xs-12 filter promotie">
+                    <a href="//www.youtube.com/watch?v=6dVFy4d61gU" data-lity>
+                        <div class="portfolio-image-wrapper">
+                            <img src="assets/images/portfolio-tomorrowland.png" class="img-responsive porfolio-images">
+                            <div class="text-block">
+                                <h4 class="porfolio-card-header">Tomorrowland</h4>
+                                <p class="portfolio-card-text">What a beautiful sunrise</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="gallery_product col-lg-4 col-md-4 col-sm-6 col-xs-12 filter instructie">
+                    <a href="//www.youtube.com/watch?v=6dVFy4d61gU" data-lity>
+                        <div class="portfolio-image-wrapper">
+                            <img src="assets/images/portfolio-tomorrowland.png" class="img-responsive porfolio-images">
+                            <div class="text-block">
+                                <h4 class="porfolio-card-header">Tomorrowland</h4>
+                                <p class="portfolio-card-text">What a beautiful sunrise</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="gallery_product col-lg-4 col-md-4 col-sm-6 col-xs-12 filter bruiloft">
+                    <a href="//www.youtube.com/watch?v=6dVFy4d61gU" data-lity>
+                        <div class="portfolio-image-wrapper">
+                            <img src="assets/images/portfolio-tomorrowland.png" class="img-responsive porfolio-images">
+                            <div class="text-block">
+                                <h4 class="porfolio-card-header">Tomorrowland</h4>
+                                <p class="portfolio-card-text">What a beautiful sunrise</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="gallery_product col-lg-4 col-md-4 col-sm-6 col-xs-12 filter aftermovies">
+                    <a href="//www.youtube.com/watch?v=6dVFy4d61gU" data-lity>
+                        <div class="portfolio-image-wrapper">
+                            <img src="assets/images/portfolio-tomorrowland.png" class="img-responsive porfolio-images">
+                            <div class="text-block">
+                                <h4 class="porfolio-card-header">Tomorrowland</h4>
+                                <p class="portfolio-card-text">What a beautiful sunrise</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="gallery_product col-lg-4 col-md-4 col-sm-6 col-xs-12 filter aftermovies">
+                    <a href="//www.youtube.com/watch?v=6dVFy4d61gU" data-lity>
+                        <div class="portfolio-image-wrapper">
+                            <img src="assets/images/portfolio-tomorrowland.png" class="img-responsive porfolio-images">
+                            <div class="text-block">
+                                <h4 class="porfolio-card-header">Tomorrowland</h4>
+                                <p class="portfolio-card-text">What a beautiful sunrise</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="gallery_product col-lg-4 col-md-4 col-sm-6 col-xs-12 filter aftermovies">
+                    <a href="//www.youtube.com/watch?v=6dVFy4d61gU" data-lity>
+                        <div class="portfolio-image-wrapper">
+                            <img src="assets/images/portfolio-tomorrowland.png" class="img-responsive porfolio-images">
+                            <div class="text-block">
+                                <h4 class="porfolio-card-header">Tomorrowland</h4>
+                                <p class="portfolio-card-text">What a beautiful sunrise</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="gallery_product col-lg-4 col-md-4 col-sm-6 col-xs-12 filter promotie">
+                    <a href="//www.youtube.com/watch?v=6dVFy4d61gU" data-lity>
+                        <div class="portfolio-image-wrapper">
+                            <img src="assets/images/portfolio-tomorrowland.png" class="img-responsive porfolio-images">
+                            <div class="text-block">
+                                <h4 class="porfolio-card-header">Tomorrowland</h4>
+                                <p class="portfolio-card-text">What a beautiful sunrise</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+
+            </div>
+        </div>
+
     </section>
 
+    <div class="parallax-contact" id="contact">
+        <div class="icon-scroll-down hidden-xs">
+            <i id="icon-1" class=" icon fas fa-caret-down"></i>
+            <i id="icon-2" class=" icon fas fa-caret-down"></i>
+            <i id="icon-3" class=" icon fas fa-caret-down"></i>
+        </div>
+        <div class="text-center container parallax-section-heading">
+            <div class="row text-center">
+                <h2 class="col-sm-12 section-main-titles">Contact</h2>
+            </div>
+        </div>
+    </div>
 
-
-
-    <section class="contact-section container-fluid">
+    <section class="container-fluid bg-color-contact contact-section">
+        <div class="row">
+            <div>
+                <h3 class="contact-heading text-center">Interesse?</h3>
+                <h5 class="text-center">Let's work together</h5>
+            </div>
+            <div class="center-form">
+                <form onsubmit="return sendMail(this);" method="POST">
+                    <input type="text" name="name" class="form-control" id="fullname" placeholder="Naam" required/>
+                    <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
+                    <textarea rows="15" name="projectsummary" class="form-control" id="projectsummary" placeholder="Uw vraag" required></textarea>
+                    <button type="submit" class="btn btn-secondary center-block">Verstuur Mail</button>
+                </form>
+            </div>
+        </div>
 
     </section>
 
+    <footer class="container-fluid bg-color-footer text-center">
+        <div class="row text-center">
+            <ul class="list-inline">
+                <li>
+                    <a target="_blank" href="https://www.youtube.com/channel/UCVYo0PqHLzafYAsfolYtgXA">
+                        <i id="icon-youtube" class="fab fa-youtube"></i>
+                        <span class="social-media-links hidden-sm hidden-xs">Youtube</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a target="_blank" href="https://nl.linkedin.com/in/ward-van-zeijl-67884813b">
+                        <i id="icon-instagram" class="fab fa-linkedin"></i>
+                        <span class="social-media-links hidden-sm hidden-xs">LinkedIn</span>
+                    </a>
+                </li>
 
 
+                <li>
+                    <a target="_blank" href="https://www.facebook.com/CineWard/">
+                        <i id="icon-facebook" class="fab fa-facebook"></i>
+                        <span class="social-media-links hidden-sm hidden-xs">Facebook</span>
+                    </a>
+                </li>
 
-    <footer class="container-fluid">
 
+                <li>
+                    <a target="_blank" href="https://www.instagram.com/wardvanzeijl/">
+                        <i id="icon-instagram" class="fab fa-instagram"></i>
+                        <span class="social-media-links hidden-sm hidden-xs">Instagram</span>
+                    </a>
+                </li>
+            </ul>
+
+
+        </div>
+        <div class="row disclaimer-row">
+            <a class="disclaimer" target="_blank" href="">
+                <p>Disclaimer</p>
+            </a>
+        </div>
     </footer>
-
-
 
 
     <script type="text/javascript" src="https://code.jquery.com/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="assets/lity/lity.js"></script>
     <script src="js/script.js"></script>
 </body>
 
