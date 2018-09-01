@@ -279,7 +279,7 @@ header {
 /*----------------------------------------------------------------------------------------------------------product-section*/
 
 .parallax-diensten {
-    background-image: url("../assets/images/asopos-klein.jpg");
+    background-image: url("../assets/images/camcorder.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -408,7 +408,6 @@ header {
 
 .filter-button:hover {
     font-size: 18px;
-    border: 1px solid #b4d593;
     border-radius: 5px;
     text-align: center;
     color: #fafafa;
@@ -417,9 +416,11 @@ header {
 }
 
 .btn-default:active .filter-button:active {
-    background-color: #42B32F;
+    background-color: #b4d593;
     color: white;
 }
+
+
 
 .porfolio-images:hover {
     opacity: 1;
