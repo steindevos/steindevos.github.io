@@ -69,6 +69,25 @@ li>a>p {
     margin-bottom: 70px;
 }
 
+.bio-heading {
+    font-family: 'Sintony', sans-serif;
+    font-weight: 700;
+    color: #797d75;
+    font-size: 3rem;
+    line-height: 80px;
+    word-wrap: break-word;
+}
+
+.bio-heading:after {
+    content: "";
+    position: absolute;
+    width: 3%;
+    left: 48.5%;
+    height: 65px;
+    border-bottom: 1px solid #797d75;
+    margin-bottom: 70px;
+}
+
 .general-text {
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
@@ -127,7 +146,6 @@ li>a>p {
     font-weight: 300;
     color: #797d75;
     line-height: 30px;
-    margin-top: 50px;
 }
 
 .porfolio-card-header {
