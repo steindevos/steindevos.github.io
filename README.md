@@ -3,6 +3,11 @@ This is a static website for a video productions company. The website is a "onep
 
 The website is made so that it is responsive. Both on pc's, pads and mobiles the website maintains all its functionality. 
 
+#### Live Demo
+A live demo of the website can be found [here].
+
+[here]: https://sdv-project-cw.herokuapp.com/
+
 ## UX 
 The website is built with the aim of giving a clear overview of what the company does, its previous work, and how to contact them. The assumption is that these are the most important questions that potential buyers will have. 
 
