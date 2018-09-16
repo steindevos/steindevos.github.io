@@ -33,7 +33,7 @@ Although this project uses bootstrap for its layout, the styling is done complet
 Want to use this website as a template for your own project? That's perfectly fine. Just clone the project to your local machine: ```git clone git@github.com:steindevos/project1_CI.git```. 
 
 ## Acknowledgements 
-I want to thank Ward van Zeijl for delivering most of the content of the website. 
+I want to thank Ward van Zeijl for delivering most of the content for the website. 
 
 A big thanks to teachers of the Code Institute for all their advise. 
 
